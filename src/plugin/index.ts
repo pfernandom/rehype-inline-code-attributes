@@ -21,12 +21,13 @@ export function rehypeInlineCodeAttributesPlugin(
 
       console.log({ part2 });
 
+      const properties = Array.from(
+        new URLSearchParams(part2).entries()
+      ).reduce((acc, [k, v]) => ({ [k]: mapValue(k, v), ...acc }), {});
+
       return {
         content: part1,
-        properties: Array.from(new URLSearchParams(part2).entries()).reduce(
-          (acc, [k, v]) => ({ [k]: mapValue(k, v), ...acc }),
-          {}
-        ),
+        properties,
       };
     }
 

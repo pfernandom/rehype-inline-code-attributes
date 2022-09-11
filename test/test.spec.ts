@@ -65,7 +65,7 @@ describe("Test rehypeInlineCodeAttributesPlugin", () => {
 
     log(JSON.stringify(result, undefined, 4));
 
-    result.basename = "example.html";
+    result.basename = "example_custom_separator.html";
 
     writeSync(result);
 
