@@ -1,5 +1,21 @@
 # rehype-inline-code-attributes
 
+<div id="badges">
+  <a href="https://www.npmjs.com/package/rehype-inline-code-attributes">
+    <img src="https://img.shields.io/badge/NPM-red?style=for-the-badge&logo=npm&logoColor=white
+    " alt="NPM Badge"/>
+  </a>
+  <a href="https://www.linkedin.com/in/pedro-fernando-m%C3%A1rquez-soto-1218a345/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://pedromarquez.dev/">
+    <img src="https://img.shields.io/badge/Blog-violet?style=for-the-badge&logo=rss&logoColor=white
+    " alt="NPM Badge"/>
+  </a>
+</div>
+
+---
+
 A [unified](http://unifiedjs.com/explore/package/unified/)([rehype](http://unifiedjs.com/explore/project/rehypejs/rehype/)) plugin to support adding HTML attributes to inline code blocks.
 
 ## Description
