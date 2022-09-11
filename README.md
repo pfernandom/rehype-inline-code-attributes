@@ -105,4 +105,4 @@ export default nextConfig;
 
 ## Extending even further
 
-If you need to add attributes to more elements, you might want to check (remark-directive)[https://github.com/remarkjs/remark-directive].
+If you need to add attributes to more elements, you might want to check [remark-directive](https://github.com/remarkjs/remark-directive).
